@@ -1,0 +1,10 @@
+package model;
+
+public class ActionGame extends Game {
+
+	public ActionGame() {
+		name = "Action Game";
+		category = "Action";
+	}
+
+}

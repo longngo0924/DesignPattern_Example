@@ -1,0 +1,17 @@
+package model;
+
+public class ActionGame implements Game {
+
+	@Override
+	public String getGameName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getNameCategory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

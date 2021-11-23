@@ -1,0 +1,7 @@
+package builder.impl;
+
+import builder.AccountBuilder;
+
+public class AccountConcreteBuilder implements AccountBuilder {
+
+}

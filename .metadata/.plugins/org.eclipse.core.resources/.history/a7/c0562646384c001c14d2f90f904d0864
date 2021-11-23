@@ -1,0 +1,23 @@
+package model;
+
+public class EmployeeConcrete implements Employee {
+
+	@Override
+	public void doTask() {
+		System.out.println("Doing task...");
+		
+	}
+
+	@Override
+	public void join() {
+		System.out.println("Joining...");
+		
+	}
+
+	@Override
+	public void terminate() {
+		System.out.println("Terminated");
+		
+	}
+
+}

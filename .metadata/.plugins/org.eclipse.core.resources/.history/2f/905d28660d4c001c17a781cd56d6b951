@@ -1,0 +1,16 @@
+package model;
+
+public class Account {
+	private String accountName;
+	private String accountNumber;
+
+	private String email;
+	private boolean hasMobileBanking;
+
+	public Account(String accountName, String accountNumber) {
+		super();
+		this.accountName = accountName;
+		this.accountNumber = accountNumber;
+	}
+
+}

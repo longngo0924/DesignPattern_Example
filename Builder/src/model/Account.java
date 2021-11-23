@@ -1,0 +1,40 @@
+package model;
+
+public class Account {
+	private String accountName;
+	private String accountNumber;
+
+	private String email;
+	private boolean hasMobileBanking;
+
+	public Account(String accountName, String accountNumber, String email, boolean hasMobileBanking) {
+		super();
+		this.accountName = accountName;
+		this.accountNumber = accountNumber;
+		this.email = email;
+		this.hasMobileBanking = hasMobileBanking;
+	}
+
+	public String getAccountName() {
+		return accountName;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public boolean isHasMobileBanking() {
+		return hasMobileBanking;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [accountName=" + accountName + ", accountNumber=" + accountNumber + ", email=" + email
+				+ ", hasMobileBanking=" + hasMobileBanking + "]";
+	}
+
+}

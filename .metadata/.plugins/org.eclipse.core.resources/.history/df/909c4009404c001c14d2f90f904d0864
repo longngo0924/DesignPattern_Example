@@ -1,0 +1,10 @@
+package model;
+
+public class ActionGame extends Game {
+
+	@Override
+	public String privateCateogory() {
+		return "Fight";
+	}
+
+}

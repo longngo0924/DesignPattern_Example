@@ -1,0 +1,53 @@
+package model;
+
+public class Account {
+	private String accountName;
+	private String accountNumber;
+
+	private String email;
+	private boolean hasMobileBanking;
+
+	public String getAccountName() {
+		return accountName;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public boolean isHasMobileBanking() {
+		return hasMobileBanking;
+	}
+
+	public static class AccountBuilder {
+		private String accountName;
+		private String accountNumber;
+
+		private String email;
+		private boolean hasMobileBanking;
+
+		public AccountBuilder(String accountName, String accountNumber) {
+			super();
+			this.accountName = accountName;
+			this.accountNumber = accountNumber;
+		}
+
+		public AccountBuilder setEmail(String email) {
+			this.email = email;
+			return this;
+
+		}
+
+		public AccountBuilder setHasMobileBanking(boolean hasMobileBanking) {
+			this.hasMobileBanking = hasMobileBanking;
+			return this;
+
+		}
+
+	}
+
+}

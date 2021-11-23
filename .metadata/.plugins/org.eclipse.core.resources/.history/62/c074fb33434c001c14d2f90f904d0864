@@ -1,0 +1,15 @@
+package model;
+
+public class RacingGame extends Game {
+	private String privateCategory;
+
+	public RacingGame(String privateCategory) {
+		this.privateCategory = privateCategory;
+		name = "Racing Game";
+		category = "Racing";
+	}
+
+	public String getPrivateCategory() {
+		return privateCategory;
+	}
+}

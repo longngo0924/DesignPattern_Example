@@ -1,0 +1,10 @@
+package model;
+
+public class TeamMember extends EmployeeDecorator {
+
+	public TeamMember(Employee employee) {
+		super(employee);
+		// TODO Auto-generated constructor stub
+	}
+
+}

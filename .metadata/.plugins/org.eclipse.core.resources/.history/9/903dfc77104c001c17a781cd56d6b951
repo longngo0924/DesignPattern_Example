@@ -1,0 +1,36 @@
+package builder.impl;
+
+import builder.AccountBuilder;
+
+public class AccountConcreteBuilder implements AccountBuilder {
+	private String accountName;
+	private String accountNumber;
+
+	private String email;
+	private boolean hasMobileBanking;
+
+	@Override
+	public AccountBuilder setAccountName(String accountName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AccountBuilder setAccountNumber(String accountNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AccountBuilder setEmail(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AccountBuilder setHasMobileBanking(boolean hasMobileBanking) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

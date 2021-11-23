@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="app.Util"/>
+    <fullyQualifiedTypeName name="builder.AccountBuilder"/>
+    <fullyQualifiedTypeName name="builder.impl.AccountConcreteBuilder"/>
+    <fullyQualifiedTypeName name="model.Account"/>
+    <fullyQualifiedTypeName name="javax.smartcardio.Card"/>
+    <fullyQualifiedTypeName name="model.Honda"/>
+    <fullyQualifiedTypeName name="model.Car"/>
+    <fullyQualifiedTypeName name="factory.CarFactory"/>
+    <fullyQualifiedTypeName name="model.EmployeeDecorator"/>
+    <fullyQualifiedTypeName name="model.Employee"/>
+    <fullyQualifiedTypeName name="model.EmployeeConcrete"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="model.TeamMember"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="model.AccessoryDecorator"/>
+    <fullyQualifiedTypeName name="model.Game"/>
+    <fullyQualifiedTypeName name="model.ActionGame"/>
+    <fullyQualifiedTypeName name="model.Gamepad"/>
+    <fullyQualifiedTypeName name="model.SteeringWheel"/>
+    <fullyQualifiedTypeName name="state.State"/>
+    <fullyQualifiedTypeName name="model.DocumentContext"/>
+    <fullyQualifiedTypeName name="state.NewState"/>
+</qualifiedTypeNameHistroy>

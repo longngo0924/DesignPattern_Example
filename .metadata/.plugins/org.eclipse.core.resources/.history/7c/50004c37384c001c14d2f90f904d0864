@@ -1,0 +1,9 @@
+package model;
+
+public interface Employee {
+	 void doTask();
+
+	 void join();
+
+	 void terminate();
+}

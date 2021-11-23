@@ -1,0 +1,17 @@
+package app;
+
+import model.ActionGame;
+import model.Game;
+import model.Gamepad;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Game game1 = new ActionGame("Fight", "Game 1");
+		Gamepad gamepad = new Gamepad(game1);
+		
+		System.out.println(gamepad.hasGamepad());
+
+	}
+
+}

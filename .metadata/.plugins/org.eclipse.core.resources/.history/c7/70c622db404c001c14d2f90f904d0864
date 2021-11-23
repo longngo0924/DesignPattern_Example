@@ -1,0 +1,13 @@
+package model;
+
+public class ActionGame extends Game {
+
+	private String privateCategory;
+
+	public ActionGame(String privateCategory) {
+		this.privateCategory = privateCategory;
+		name = "Action Game";
+		category = "Action";
+	}
+
+}

@@ -1,0 +1,13 @@
+package model;
+
+import state.State;
+
+public class DocumentContext {
+	private State state;
+
+	public DocumentContext(State state) {
+		super();
+		this.state = state;
+	}
+
+}

@@ -1,0 +1,26 @@
+package model;
+
+public class Account {
+	private String accountName;
+	private String accountNumber;
+
+	private String email;
+	private boolean hasMobileBanking;
+
+	public String getAccountName() {
+		return accountName;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public boolean isHasMobileBanking() {
+		return hasMobileBanking;
+	}
+
+}

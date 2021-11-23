@@ -1,0 +1,7 @@
+package model;
+
+public abstract class GameDecorator extends Game {
+	public abstract String getName();
+
+	public abstract String getCategory();
+}

@@ -1,0 +1,22 @@
+package model;
+
+public class Gamepad extends AccessoryDecorator {
+
+	Game game;
+
+	public Gamepad(Game game) {
+		super();
+		this.game = game;
+	}
+
+	@Override
+	public String getName() {
+		return game.name;
+	}
+
+	@Override
+	public String getCategory() {
+		return game.category;
+	}
+
+}

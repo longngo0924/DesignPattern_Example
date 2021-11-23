@@ -1,0 +1,7 @@
+package model;
+
+import state.State;
+
+public class DocumentContext {
+	private State state;
+}
